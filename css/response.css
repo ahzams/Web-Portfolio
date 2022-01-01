@@ -1,0 +1,420 @@
+@media screen and (max-width: 1343px) {
+    #home-box img {
+        height: 317px;
+    }
+
+    #home-box::before {
+        height: 260px;
+    }
+
+    #head {
+        font-size: 37px;
+        padding-bottom: 20px;
+    }
+
+    #designation img {
+        height: auto;
+        width: 378px;
+    }
+    
+    #side-quote {
+        /* flex-wrap: wrap; */
+        font-size: 24px;
+        padding: 100px 45px;
+    }
+
+    #info {
+        padding-top: 17px;
+    }
+
+    .add {
+        font-size: 18px;
+        padding: 6px 0px;
+    }
+
+    #mid-box {
+        height: 533px;
+    }
+
+    #mid-box::before {
+        height: 716px;
+    }
+
+    #contact::before {
+        height: 219px;
+    }
+}
+
+@media screen and (max-width:986px) {
+
+    #home-box::before{
+        height: 213px;
+    }
+
+    #home-box img{
+        height: 247px;
+    }
+
+    #name {
+        font-size: 42px;
+        padding: 5px;
+    }
+
+    /* #h-primary {
+        font-size: 2.5rem;
+    } */
+
+    #mid-box {
+        flex-direction: column;
+        align-items: center;
+        height: 765px;
+    }
+
+    #head {
+        font-size: 30px;
+        padding-bottom: 18px;
+        text-align: center;
+    }
+
+    #mid-box::before {
+        height: 754px;
+    }
+
+    /* #designation {
+        margin: 2px 0;
+        padding-top: 10px;
+    } */
+
+    #designation img{
+        
+        width: 402px;
+        height: auto;
+    }
+
+    #side-quote {
+        padding: 20px 1px;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    #info {
+        padding: 13px 3px;
+    }
+    
+
+    #contact::before {
+        height: 167px;
+    }
+
+    #social {
+        padding: 10px;
+    }
+
+
+}
+
+@media  screen and (max-width: 764px) {
+
+    #home-box img {
+        height: 200px;
+        border: 4px solid white;
+    }
+
+    #home-box::before {
+        height: 179px;
+    }
+
+    #name {
+        font-size: 37px;
+    }
+
+    #mid-box {
+        height: 631px;
+    }
+
+    #head {
+        font-size: 25px;
+    }
+
+    #mid-box::before {
+        height: 604px;
+    }
+
+    #designation img {
+        width: 321px;
+        height: auto;
+    }
+
+    #side-quote {
+        padding: 20px 1px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .add {
+        font-size: 15px;
+    }
+
+    .add span {
+        font-size: 16px;
+    }
+    
+    #social a {
+        font-size: 2.5em;
+    }
+
+    #email {
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 671px) {
+    #home-box img {
+        height: 189px;
+        border: 4px solid white;
+    }
+
+    #home-box::before {
+        height: 175px;
+    }
+
+    #name {
+        font-size: 33px;
+    }
+
+    #mid-box {
+        height: 591px;
+    }
+
+    #head {
+        font-size: 22px;
+    }
+
+    #mid-box::before {
+        height: 604px;
+    }
+
+    #designation img {
+        width: 287px;
+        height: auto;
+    }
+
+    #side-quote {
+        padding: 20px 1px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #info {
+        padding: 13px 20px;
+    }
+
+    .add {
+        font-size: 13px;
+    }
+
+    .add span {
+        font-size: 14px;
+    }
+
+    #contact::before {
+        height: 142px;
+    }
+
+    #social a {
+        font-size: 2em;
+    }
+
+    #email {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 549px) {
+    #home-box img {
+        height: 173px;
+        border: 4px solid white;
+    }
+
+    #home-box::before {
+        height: 157px;
+    }
+
+    #name {
+        font-size: 29px;
+    }
+
+    #mid-box {
+        height: 562px;
+    }
+
+    #head {
+        font-size: 20px;
+    }
+
+    #mid-box::before {
+        height: 548px;
+    }
+
+    #designation img {
+        width: 263px;
+        height: auto;
+    }
+
+    #side-quote {
+        padding: 20px 1px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #info {
+        padding: 13px 3px;
+    }
+
+    .add {
+        font-size: 12px;
+    }
+
+    .add span {
+        font-size: 14px;
+    }
+
+    #contact::before {
+        height: 132px;
+    }
+
+    #social a {
+        font-size: 2em;
+    }
+
+    #email {
+        font-size: 17px;
+    }
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #home-box img {
+        height: 147px;
+        border: 4px solid white;
+    }
+
+    #home-box::before {
+        height: 133px;
+    }
+
+    #name {
+        font-size: 27px;
+    }
+
+    #mid-box {
+        height: 569px;
+    }
+
+    #head {
+        font-size: 20px;
+    }
+
+    #mid-box::before {
+        height: 551px;
+    }
+
+    #designation img {
+        width: 227px;
+        height: auto;
+    }
+
+    #side-quote {
+        padding: 20px 1px;
+        font-size: 13px;
+        /* text-align: center; */
+    }
+
+    #info {
+        padding: 13px 0px;
+    }
+
+    .add {
+        font-size: 12px;
+    }
+
+    .add span {
+        font-size: 14px;
+    }
+
+    #contact::before {
+        height: 132px;
+    }
+
+    #social a {
+        font-size: 1.5em;
+    }
+
+    #email {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 240px) and (max-width: 320px) {
+    #home-box img {
+        height: 147px;
+        border: 4px solid white;
+    }
+
+    #home-box::before {
+        height: 133px;
+    }
+
+    #name {
+        font-size: 27px;
+    }
+
+    #mid-box {
+        height: 569px;
+    }
+
+    #head {
+        font-size: 20px;
+    }
+
+    #mid-box::before {
+        height: 551px;
+    }
+
+    #designation img {
+        overflow: hidden;
+        width: 227px;
+        height: auto;
+    }
+
+    #side-quote {
+        padding: 20px 1px;
+        font-size: 13px;
+        /* text-align: center; */
+    }
+
+    #info {
+        padding: 13px 0px;
+    }
+
+    .add {
+        font-size: 12px;
+    }
+
+    .add span {
+        font-size: 14px;
+    }
+
+    #contact::before {
+        height: 132px;
+    }
+
+    #social a {
+        font-size: 1.5em;
+    }
+
+    #email {
+        font-size: 16px;
+    }
+}

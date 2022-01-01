@@ -1,0 +1,162 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+/* #navbar {
+    border: 1px solid black;
+} */
+
+body{
+    scroll-behavior: smooth;
+}
+
+#home-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+#home-box img{
+    height: 397px;
+    border-radius: 50%;
+    border: 8px solid white;
+}
+
+#home-box::before {
+    content: "";
+    background-color: rgba(209, 214, 198, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 339px;
+    width: 100%;
+    z-index: -1;
+}
+
+#name {
+    padding: 17px;
+    color: rgb(74, 111, 150);
+    font-weight: 600;
+}
+
+#mid-box {
+    display: flex;
+    padding: 0 150px;
+    height: 770px;
+}
+
+#mid-box::before{
+    content: "";
+    display: table;
+    position: absolute;
+    background: linear-gradient(rgba(255,250,250),rgba(196,198,183));
+    left: 0;
+    height: 730px;
+    width: 100%;
+    z-index: -1;
+}
+
+#designation {
+    /* padding-left: 200px; */
+    padding-top: 35px;
+    font-weight: 300;
+}
+
+#head {
+    padding-bottom: 40px;
+    font-size: 3rem;
+}
+
+#head span {
+    font-weight: 600;
+}
+
+#designation img {
+    display: block;
+    margin: auto;
+    height: 508px;
+}
+
+#side-quote {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    padding-top: 123px;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+#info {
+    font-size: 1.5rem;
+    padding-top: 15px;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 22px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url("contact-bg.jpg") no-repeat center center/cover;
+    left: 0;
+    width: 100%;
+    height: 283px;
+    z-index: -1;
+}
+
+#social {
+    padding: 40px;
+}
+
+
+#social a {
+    text-decoration: none;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.fa {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+
+
+.h-primary {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3.5rem;
+}
+
+.h-secondary {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+#email {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e6d9c8;
+}
+
+#email a {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
+
+.center {
+    text-align: center;
+}
