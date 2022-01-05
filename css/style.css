@@ -1,6 +1,7 @@
 *{
    margin: 0;
    padding: 0;
+   box-sizing: border-box;
 }
 
 /* #navbar {
@@ -22,6 +23,7 @@ body{
 #home-box img{
     height: 397px;
     border-radius: 50%;
+    cursor: pointer;
     border: 8px solid white;
 }
 
@@ -101,6 +103,45 @@ body{
     padding-left: 22px;
 }
 
+.material-icons {
+    display: flex;
+    align-items: center;
+    padding: 0 7px;
+}
+
+#cv {
+     margin: 20px 7px;
+}
+
+#cv a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#cv .material-icons {
+    font-size: 28px;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 25px;
+    background-color: rgb(93, 142, 232);
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: rgb(65, 109, 204);
+}
+
 #contact {
     display: flex;
     flex-direction: column;
@@ -114,8 +155,9 @@ body{
     background: url("contact-bg.jpg") no-repeat center center/cover;
     left: 0;
     width: 100%;
-    height: 283px;
+    height: 294px;
     z-index: -1;
+    opacity: 0.8;
 }
 
 #social {
@@ -125,8 +167,25 @@ body{
 
 #social a {
     text-decoration: none;
-    padding: 20px;
-    padding-bottom: 10px;
+    padding: 20px 30px;
+    /* padding-bottom: 10px; */
+    transition: 0.4s;
+}
+
+#social a:hover{
+    transform: translate3d(0px,-5px,0px);
+}
+
+#social .fa-github:hover{
+    color: #24292e;
+}
+
+#social .fa-linkedin:hover{
+    color: #0e76a8;
+}
+
+#social .fa-facebook:hover{
+    color: #4267B2;
 }
 
 .fa {
@@ -155,6 +214,11 @@ body{
     text-decoration: none;
     color: white;
     font-style: italic;
+    transition: 0.4s;
+}
+
+#email a:hover{
+    color: black;
 }
 
 .center {
