@@ -520,7 +520,7 @@
     }
 
     #mid-box {
-        height: 638px;
+        height: 594px;
     }
 
     #head {
@@ -528,7 +528,7 @@
     }
 
     #mid-box::before {
-        height: 619px;
+        height: 573px;
     }
 
     #designation img {
@@ -537,8 +537,9 @@
     }
 
     #side-quote {
+        width: 231px;
         padding: 20px 0px;
-        font-size: 12px;
+        font-size: 15px;
     }
 
     #info {
@@ -546,7 +547,7 @@
     }
 
     .add {
-        font-size: 9px;
+        font-size: 12px;
     }
 
     .add span {
@@ -561,7 +562,7 @@
 
     #cv a {
         margin-top: -10px;
-        width: 100%;
+        width: 61%;
     }
 
     #cv .material-icons {
