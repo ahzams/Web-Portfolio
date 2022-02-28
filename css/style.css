@@ -29,11 +29,13 @@ body{
 
 #home-box::before {
     content: "";
-    background-color: rgba(209, 214, 198, 0.6);
+    /* background-color: rgba(209, 214, 198, 0.6); */
+    background: linear-gradient(to top, rgba(255,250,250),rgba(196,198,183));
     position: absolute;
     top: 0;
     left: 0;
-    height: 339px;
+    /* height: 339px; */
+    height: 532px;
     width: 100%;
     z-index: -1;
 }
