@@ -24,7 +24,7 @@ body{
     height: 397px;
     border-radius: 50%;
     cursor: pointer;
-    border: 8px solid white;
+    /* border: 8px solid white; */
 }
 
 #home-box::before {
