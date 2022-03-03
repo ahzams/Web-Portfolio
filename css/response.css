@@ -137,7 +137,6 @@
 
     #home-box img {
         height: 200px;
-        border: 4px solid white;
     }
 
     #home-box::before {
@@ -196,7 +195,6 @@
 @media screen and (max-width: 671px) {
     #home-box img {
         height: 189px;
-        border: 4px solid white;
     }
 
     #home-box::before {
@@ -272,7 +270,6 @@
 @media screen and (max-width: 549px) {
     #home-box img {
         height: 173px;
-        border: 4px solid white;
     }
 
     #home-box::before {
@@ -345,7 +342,6 @@
 @media screen and (min-width: 480px) and (max-width: 522px) {
     #home-box img {
         height: 147px;
-        border: 4px solid white;
     }
 
     #home-box::before {
@@ -425,7 +421,6 @@
 @media screen and (min-width: 445px) and (max-width: 480px) {
     #home-box img {
         height: 147px;
-        border: 4px solid white;
     }
 
     #home-box::before {
@@ -507,7 +502,6 @@
 @media screen and (min-width: 320px) and (max-width: 445px) {
     #home-box img {
         height: 147px;
-        border: 4px solid white;
     }
 
     #home-box::before {
