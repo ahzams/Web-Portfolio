@@ -18,9 +18,8 @@
     }
 
     #home-box::before {
-        height: 260px;
+        height: 464px;
     }
-
     #head {
         font-size: 37px;
         padding-bottom: 20px;
@@ -65,7 +64,7 @@
 @media screen and (max-width:1061px) {
 
     #home-box::before{
-        height: 213px;
+        height: 351px;
     }
 
     #home-box img{
@@ -142,7 +141,7 @@
     }
 
     #home-box::before {
-        height: 179px;
+        height: 294px;
     }
 
     #name {
@@ -201,7 +200,7 @@
     }
 
     #home-box::before {
-        height: 175px;
+        height: 281px;
     }
 
     #name {
@@ -277,7 +276,7 @@
     }
 
     #home-box::before {
-        height: 157px;
+        height: 259px;
     }
 
     #name {
@@ -350,7 +349,7 @@
     }
 
     #home-box::before {
-        height: 133px;
+        height: 230px;
     }
 
     #name {
@@ -430,7 +429,7 @@
     }
 
     #home-box::before {
-        height: 133px;
+        height: 232px;
     }
 
     #name {
@@ -512,7 +511,7 @@
     }
 
     #home-box::before {
-        height: 133px;
+        height: 225px;
     }
 
     #name {
