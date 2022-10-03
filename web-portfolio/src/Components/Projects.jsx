@@ -8,6 +8,7 @@ export default function Projects() {
 
     const [isShoezHover, setisShoezHover] = useState(false)
     const [isTextHover, setisTextHover] = useState(false)
+    const [isYouHover, setisYouHover] = useState(false)
 
     return (
         <div className='text-white xsm:ml-[11%] ml-0 h-[100vh] flex xsm:flex-row flex-col justify-center xsm:justify-start items-center /*border border-white*/ ' id='project'>
@@ -29,18 +30,23 @@ export default function Projects() {
                 <div className='flex justify-center items-center w-[300px] h-[200px] text-2xl' data-aos="fade-left" onMouseLeave={() => setisShoezHover(false)} >
                     <div className='absolute'>
                         <div className={`transition ease-in-out duration-[0.5s] m-5 ${isShoezHover ? "-translate-y-0 opacity-100" : "-translate-y-full h-0 w-0 overflow-hidden opacity-0"}`}>
-                            <a href='https://github.com/ahzams/Ecommerce-website' className='m-4 ease-in-out duration-[0.5s] hover:text-red-600'>Github Link</a>
+                            <a href='https://github.com/ahzams/Shoez' className='m-4 ease-in-out duration-[0.5s] hover:text-red-600'>Github Link</a>
                         </div>
                         <div className={`transition ease-in-out duration-[0.5s] m-5 ${isShoezHover ? "translate-y-0 opacity-100" : "translate-y-full h-0 w-0 overflow-hidden opacity-0"}`}>
-                            <a href='https://ahzams.github.io/Ecommerce-website/' className='m-4 ease-in-out duration-[0.5s] hover:text-red-600'>Project Link</a>
+                            <a href='https://shoezs.netlify.app/' className='m-4 ease-in-out duration-[0.5s] hover:text-red-600'>Project Link</a>
                         </div>
                     </div>
                     <LazyLoadImage effect='opacity' delayTime={500} className={`xsm:w-[300px] sm:w-[250px] w-[150px] ${isShoezHover ? "hidden" : ""}`} src={Shoez} alt="" onMouseEnter={() => setisShoezHover(true)} />
                 </div>
                 <div className='flex xsm:flex-row flex-col sm:flex-row items-center'>
-                    <div className='flex flex-col items-center xsm:p-5 sm:my-2 p-0 xsm:mr-5 mr-0 bg-white rounded-[50%] xsm:h-[190px] sm:h-[140px] h-[110px] xsm:w-[300px] sm:w-[270px] w-[230px] justify-center' data-aos="fade-left">
-                        <LazyLoadImage effect='opacity' delayTime={500} className='xsm:w-[250px] sm:w-[220px] w-[170px]' src={youtube} alt="" />
-                        <div className='relative xsm:bottom-10 bottom-7 left-3 xsm:left-0 xsm:text-3xl text-2xl font-mono font-extrabold text-black'>
+                    <div className={`flex flex-col items-center xsm:p-5 sm:my-2 p-0 xsm:mr-5 mr-0 bg-white rounded-[50%] xsm:h-[190px] sm:h-[140px] h-[110px] xsm:w-[300px] sm:w-[270px] w-[230px] justify-center`} data-aos="fade-left" onMouseLeave={() => setisYouHover(false)} onMouseEnter={() => setisYouHover(true)}>
+                        <div className='absolute'>
+                            <div className={`transition ease-in-out duration-[0.5s] m-5 ${isYouHover ? "-translate-y-0 opacity-100" : "-translate-y-full h-0 w-0 overflow-hidden opacity-0"}`}>
+                                <h2 className='m-4 ease-in-out duration-[0.5s] hover:text-red-600 text-[1.5em]'>Work in Progress...</h2>
+                            </div>
+                        </div>
+                        <LazyLoadImage effect='opacity' delayTime={500} className={`xsm:w-[250px] sm:w-[220px] w-[170px] ${isYouHover ? "hidden" : ""}`} src={youtube} alt="" />
+                        <div className={`${isYouHover ? "hidden" : ""} relative xsm:bottom-10 bottom-7 left-3 xsm:left-0 xsm:text-3xl text-2xl font-mono font-extrabold text-black`}>
                             <h2>CLONE</h2>
                         </div>
                     </div>
