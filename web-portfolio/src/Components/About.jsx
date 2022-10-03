@@ -7,7 +7,7 @@ export default function About() {
     <div className='text-white xsm:ml-[11%] ml-0 flex xsm:flex-row flex-col-reverse h-[100vh] items-center justify-center xsm:justify-start' id='about'>
       <div className='xsm:w-[600px] w-[90%] /*border border-white*/'>
         <div className='xsm:ml-5 ml-0 text-center sm:text-left sm:ml-11'>
-          <h1 className='xsm:text-[7.3rem] text-[3.438rem] font-extrabold' data-aos="fade-right">About Me</h1>
+          <h2 className='xsm:text-[7.3rem] text-[3.438rem] font-semibold' data-aos="fade-right">About Me</h2>
         </div>
         <div className='mb-2 xsm:ml-0 ml-5'>
           <div className='w-20 h-1 bg-red-600 mb-3 rounded' data-aos="fade-right" data-aos-delay={100}></div>
@@ -15,7 +15,7 @@ export default function About() {
         </div>
         <div className='ml-5'>
           <div className='my-5 xsm:mb-5 mb-0'>
-            <p className='xsm:text-xl text-sm sm:text-xl' data-aos="fade-right">I am a final-year student at NSUT East Campus, New Delhi pursuing B.Tech in Electronics & Communication, programming since freshman year of college.</p>
+            <p className='xsm:text-xl text-sm sm:text-xl' data-aos="fade-right">I am a final-year student at NSUT East Campus, New Delhi pursuing B.Tech in Electronics & Communication, programming since second year of college.</p>
           </div>
           <div className='flex xsm:flex-col flex-row items-center xsm:items-start justify-between xsm:justify-start'>
             <div className='my-7' data-aos="fade-right">

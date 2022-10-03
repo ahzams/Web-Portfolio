@@ -24,7 +24,7 @@ export default function Contact() {
         <div className='text-white xsm:ml-[11%] ml-0 flex flex-col xsm:flex-row justify-center xsm:justify-between h-[100vh] items-center /*border border-white*/' id='contact'>
             <div className='xsm:w-[700px] w-full /*border border-white*/ '>
                 <div className='ml-5 text-center xsm:text-left sm:text-left sm:ml-11'>
-                    <h1 className='xsm:text-[7.5rem] text-[3.255rem] sm:text-[5rem] font-extrabold' data-aos="fade-right">Contact Me</h1>
+                    <h1 className='xsm:text-[7.3rem] text-[3.255rem] sm:text-[5rem] font-semibold' data-aos="fade-right">Contact Me</h1>
                 </div>
                 <div className='mb-2 xsm:ml-0 ml-10 sm:ml-11' >
                     <div className='w-20 h-1 bg-red-600 mb-3 rounded' data-aos="fade-right" data-aos-delay={100}></div>
@@ -34,8 +34,8 @@ export default function Contact() {
                     <div className='flex xsm:flex-row flex-col items-center md-items-start xsm:items-start my-10 xsm:text-xl text-xl sm:text-2xl' data-aos="fade-right">
                         <div className='flex flex-col'>
                             <p className='sm:text-xl sm:text-center sm:mb-3 hidden sm:block sm:mx-5 xsm:text-left xsm:mx-0 xsm:mb-5'>I am available for development related work. I am also open to opportunities from Spring 2022.</p>
-                            <div className='flex flex-col xsm:flex-row items-center'>
-                                <span className='sm:my-5 xsm:mb-0 mb-5'>Email : </span>
+                            <div className='flex flex-col xsm:flex-row items-center xsm:items-start'>
+                                <span className='sm:my-5 xsm:my-0 xsm:mb-0 mb-5'>Email : </span>
                                 <div className='flex flex-col items-center xsm:items-start ml-5 xsm:ml-5'>
                                     <a href='mailto: ahzam183@gmail.com' className='transition-all duration-[0.5s] ease-in-out mb-2 bg-[#5B253A] p-4 rounded-[10px] text-[#FF404D] md:hover:text-white xsm:bg-inherit xsm:p-0'>ahzam183@gmail.com</a>
                                     <a href="mailto: ahzam.syed.e21@nsut.ac.in" className='transition-all duration-[0.5s] ease-in-out bg-[#5B253A] p-4 rounded-[10px] text-[#FF404D] md:hover:text-white xsm:bg-inherit xsm:p-0'>ahzam.syed.e21@nsut.ac.in</a>

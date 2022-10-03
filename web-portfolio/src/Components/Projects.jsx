@@ -13,14 +13,14 @@ export default function Projects() {
         <div className='text-white xsm:ml-[11%] ml-0 h-[100vh] flex xsm:flex-row flex-col justify-center xsm:justify-start items-center /*border border-white*/ ' id='project'>
             <div className='xsm:w-[700px] w-[95%] /*border border-white*/ mt-10 sm:mt-16 xsm:mt-0'>
                 <div className='ml-5 sm:ml-11 sm:mb-2'>
-                    <h1 className='xsm:text-[7.5rem] text-[3rem] sm:text-[5rem] text-center sm:text-left xsm:text-left font-extrabold' data-aos="fade-right">My Projects</h1>
+                    <h1 className='xsm:text-[7rem] text-[3rem] sm:text-[5rem] text-center sm:text-left xsm:text-left font-semibold' data-aos="fade-right">My Projects</h1>
                 </div>
                 <div className='mb-2 xsm:ml-0 ml-5'>
                     <div className='w-20 h-1 bg-red-600 mb-3 rounded' data-aos="fade-right" data-aos-delay={100}></div>
                     <div className='w-20 h-1 bg-red-600 ml-14 rounded' data-aos="fade-right" data-aos-delay={200}></div>
                 </div>
-                <div className='ml-5 xsm:w-[625px] w-full'>
-                    <div className='xsm:my-10 mb-0'>
+                <div className='xsm:ml-5 xsm:w-[625px] w-full'>
+                    <div className='xsm:my-10 mb-0 mx-5'>
                         <p className='text-[15px] sm:text-xl' data-aos="fade-right">Here is a showcase of some of my projects that I made. They can be found on my <a href='https://github.com/ahzams' className='underline'>GitHub</a>!</p>
                     </div>
                 </div>

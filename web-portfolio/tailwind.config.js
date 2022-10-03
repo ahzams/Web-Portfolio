@@ -13,7 +13,6 @@ module.exports = {
         xsm: '1536px',
       },
       fontFamily: {
-        FuturaBt: "Futura Bk BT",
         Proxima: "ProximaNova-Regular"
       }
     },

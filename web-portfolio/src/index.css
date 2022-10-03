@@ -2,14 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer {
+@layer base {
     html::-webkit-scrollbar {
         width: 0;
     }
     html{
         scroll-behaviour: smooth;
-    }
-    h1{
-        font-family: "Futura Bk BT";
     }
 }

@@ -15,14 +15,14 @@ export default function Skills() {
         <div className='text-white xsm:ml-[11%] ml-0 flex flex-col xsm:flex-row justify-center xsm:justify-start items-center h-[100vh] /*/*border border-white*/*/' id='skills'>
             <div className='xsm:w-[600px] w-[95%] /*/*border border-white*/*/ '>
                 <div className='ml-5 sm:mt-5'>
-                    <h1 className='xsm:text-[7.5rem] text-[3.625rem] xsm:ml-0 ml-4 font-extrabold' data-aos="fade-right">Skills</h1>
+                    <h1 className='xsm:text-[7.5rem] text-[3.625rem] xsm:ml-0 ml-4 font-semibold' data-aos="fade-right">Skills</h1>
                 </div>
                 <div className='mb-2 xsm:ml-0 ml-5'>
                     <div className='w-20 h-1 bg-red-600 mb-3 rounded' data-aos="fade-right" data-aos-delay={100}></div>
                     <div className='w-20 h-1 bg-red-600 ml-14 rounded' data-aos="fade-right" data-aos-delay={200}></div>
                 </div>
-                <div className='ml-5 xsm:w-[450px] w-full'>
-                    <div className='xsm:my-10 my-5'>
+                <div className='xsm:ml-5 xsm:w-[450px] w-full'>
+                    <div className='xsm:my-10 my-5 mx-5'>
                         <p className='xsm:text-xl text-[17px] sm:text-xl' data-aos="fade-right">An individual eager to learn and explore new fields of life and technology, with good listening skills and fast learning abilities.</p>
                     </div>
                     <div className='my-7 bg-red-800 xsm:flex hidden flex-col text-center w-[90%] text-xl rounded-[11px] shadow-[rgb(0,_0,_0,_0.25)_6px_10px_5px_0px]'  data-aos="fade-right">
