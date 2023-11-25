@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5ec1a5c9.css",
+    "main.js": "/static/js/main.945b06d8.js",
+    "static/js/787.e8a52378.chunk.js": "/static/js/787.e8a52378.chunk.js",
+    "static/media/html_logo.png": "/static/media/html_logo.ef08cd2317a0c48a22bc.png",
+    "static/media/ahzam.png": "/static/media/ahzam.403242d04ea3622ca454.png",
+    "static/media/Ahzam_Resume.pdf": "/static/media/Ahzam_Resume.03b8dc54d3a06f54e9c3.pdf",
+    "static/media/bootstrap_logo.png": "/static/media/bootstrap_logo.f132cb791703420e69ca.png",
+    "static/media/js_logo.png": "/static/media/js_logo.31c81075366a39d39b47.png",
+    "static/media/mongo_logo.png": "/static/media/mongo_logo.c20e1bc7e958c8db307f.png",
+    "static/media/Shoez-logos_white.png": "/static/media/Shoez-logos_white.16d8b59f7bf272d14520.png",
+    "static/media/jquery_logo.png": "/static/media/jquery_logo.284f1758fbcc95400e4a.png",
+    "static/media/react_logo.png": "/static/media/react_logo.20adfb35ae6a6e5817bf.png",
+    "static/media/youtube_logo.png": "/static/media/youtube_logo.fc735746cc7429abf302.png",
+    "static/media/tailwind_logo.png": "/static/media/tailwind_logo.5ddb60003daadbd2e679.png",
+    "static/media/git_logo.png": "/static/media/git_logo.fd1a85d6be07fd88fb05.png",
+    "static/media/css_logo.png": "/static/media/css_logo.99426a611bd5b768e71d.png",
+    "index.html": "/index.html",
+    "main.5ec1a5c9.css.map": "/static/css/main.5ec1a5c9.css.map",
+    "main.945b06d8.js.map": "/static/js/main.945b06d8.js.map",
+    "787.e8a52378.chunk.js.map": "/static/js/787.e8a52378.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ec1a5c9.css",
+    "static/js/main.945b06d8.js"
+  ]
+}
